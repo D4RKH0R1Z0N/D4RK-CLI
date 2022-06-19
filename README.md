@@ -1,2 +1,2 @@
 # D4RK-CLI
-Download any hacking tool and repo from me
+Download the best hacking tools and just tools for Windows, Linux, Mac and even Android (termux)!
