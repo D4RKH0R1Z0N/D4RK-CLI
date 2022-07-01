@@ -13,20 +13,6 @@ if platform == "win32":
 else:
   clear = "clear"
 
-print("Please wait installing requirements! This might take a while so sit back and relax! (Also depends on how fast your internet is...)")
-try:
-    from pip import main as pipmain
-except ImportError:
-    from pip._internal import main as pipmain
-pipmain(['install', 'pyfiglet'])
-pipmain(['install', 'pyngrok'])
-pipmain(['install', 'cryptography'])
-pipmain(['install', 'colorama'])
-pipmain(['install', 'random'])
-pipmain(['install', 'screen_brightness_control'])
-pipmain(['install', 'speech_recognition'])
-os.system(clear)
-
 while True:
   def download(read):
     tool_path = "tools"
